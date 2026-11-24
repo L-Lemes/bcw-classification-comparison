@@ -50,7 +50,7 @@ python run_experiments.py --quick  # fast smoke test
 
 Option B, manual steps:
 ```bash
-python3 -m venv .venv
+python3.15 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
