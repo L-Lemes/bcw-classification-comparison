@@ -44,7 +44,7 @@ Option A, one command:
 ```bash
 chmod +x setup.sh && ./setup.sh
 source .venv/bin/activate
-python run_experiments.py          # full run, about 2 minutes
+python run_experiments.py          # full run
 python run_experiments.py --quick  # fast smoke test
 ```
 
