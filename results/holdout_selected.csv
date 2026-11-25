@@ -1,0 +1,2 @@
+model,features,accuracy,precision,recall,f1,auc,best_params
+MLP,All 30 features,0.9790209790209791,1.0,0.9433962264150944,0.970873786407767,0.9949685534591195,"{'clf__alpha': 0.0001, 'clf__hidden_layer_sizes': (16,)}"

@@ -4,19 +4,15 @@
   "n_malignant": 212,
   "n_benign": 357,
   "missing_values": 0,
+  "n_train": 426,
+  "n_test": 143,
+  "n_test_malignant": 53,
   "pca_components_for_95pct_variance": 10,
-  "best_by_nested_cv": {
+  "selected_by_nested_cv_on_train": {
     "model": "MLP",
     "features": "All 30 features",
-    "f1": 0.9761,
-    "recall": 0.967
+    "f1": 0.9713,
+    "recall": 0.9685
   },
-  "best_params_holdout": {
-    "KNN": "{'clf__n_neighbors': 5, 'clf__weights': 'uniform'}",
-    "Decision Tree": "{'clf__max_depth': 3, 'clf__min_samples_leaf': 1}",
-    "LDA": "{}",
-    "SVM (linear)": "{'clf__C': 0.1}",
-    "SVM (RBF)": "{'clf__C': 10, 'clf__gamma': 'scale'}",
-    "MLP": "{'clf__alpha': 0.0001, 'clf__hidden_layer_sizes': (16,)}"
-  }
+  "best_params_selected": "{'clf__alpha': 0.0001, 'clf__hidden_layer_sizes': (16,)}"
 }
